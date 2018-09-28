@@ -1,0 +1,247 @@
+h1 {
+    color: white;
+    background-color: #003082;
+}
+
+header p {
+    color: white;
+}
+
+header {
+    background-color: #003082;
+}
+
+body {
+    font-family: Verdana;
+    background-color: #E6E6E9;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 7rem;
+    margin: 0px;
+}
+
+section {
+    background-color: rgba(255, 203, 23, 0.8);
+    margin-left: 0px;
+}
+
+section:nth-of-type(1) {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section:nth-of-type(2) {
+    position: relative;
+}
+
+section:nth-of-type(2) ul {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+section:nth-of-type(2) li {
+    position: absolute;
+    opacity: 0.2;
+}
+
+footer p {
+    color: black;
+}
+
+section:nth-of-type(2) li:nth-of-type(1) {
+    top: 0.5em;
+    right: 0.9em;
+    font-size: 2em;
+}
+
+section:nth-of-type(2) li:nth-of-type(2) {
+    top: 2em;
+    right: 15em;
+    font-size: 1.9em;
+}
+
+section:nth-of-type(2) li:nth-of-type(3) {
+    top: 4.5em;
+    right: 13em;
+    font-size: 0.8em;
+}
+
+section:nth-of-type(2) li:nth-of-type(4) {
+    top: 0.9em;
+    left: 4em;
+    font-size: 2em;
+}
+
+section:nth-of-type(2) li:nth-of-type(5) {
+    top: 4.6em;
+    left: 1em;
+    font-size: 1em;
+}
+
+section:nth-of-type(2) li:nth-of-type(6) {
+    top: -1em;
+    right: 12em;
+    font-size: 0.5em;
+}
+
+section:nth-of-type(2) li:nth-of-type(7) {
+    top: 1.5em;
+    right: 8em;
+    font-size: 2em;
+}
+
+section:nth-of-type(2) li:nth-of-type(8) {
+    top: 0em;
+    left: 40em;
+    font-size: 1em;
+}
+
+section:nth-of-type(2) li:nth-of-type(9) {
+    top: 0em;
+    left: 17em;
+    font-size: 1em;
+}
+
+ol {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    margin-right: 0.5em;
+}
+
+ol li a img {
+    height: 26em;
+    width: 20em;
+    object-fit: cover;
+}
+
+ol > li > a > p:nth-last-of-type(1) {
+    font-style: italic;
+    color: black;
+}
+
+
+header > p:nth-of-type(1) {
+    top: 30px;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+header > p:nth-of-type(2) {
+    display: inline-block;
+    top: 64px;
+    margin: 0 24px;
+    position: absolute;
+    font-size: 1.5em;
+}
+
+header > p:nth-of-type(3) {
+    display: inline-block;
+    margin: 0px 12px;
+    font-size: 1.5em;
+}
+
+
+h2 {
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+
+
+
+fieldset > p {
+    display: flex;
+    justify-content: center;
+
+}
+
+fieldset {
+    padding: 2em;
+    margin-top: 1em;
+    background-color: #E6E6E9;
+    width: auto;
+}
+
+nav > ol {
+    flex-direction: column;
+    padding: 0;
+}
+
+
+
+nav > ol > li {
+    display: block;
+    text-align: center;
+    position: flex;
+    border: 1px solid;
+    height: 10em;
+    padding-top: 10em;
+    margin-top: 1em;
+    width: 100%;
+}
+
+
+nav > ol > li:nth-child(1) {
+    background-image: url(../images/beweging.jpg);
+    background-size: cover;
+}
+
+nav > ol > li:nth-child(2) {
+    background-image: url(../images/abstract.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav > ol > li:nth-child(3) {
+    background-image: url(../images/grijstinten.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav > ol > li:nth-child(4) {
+    background-image: url(../images/zachtaardig.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#categorie {
+    border: 20em;
+}
+
+nav > ol > li > a {
+    color: white;
+    font-size: 2em;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+nav > ol > li > a:hover {
+    color: #003082;
+    font-size: 2.5em;
+    background-color: #FFC917;
+}
+
+main {
+    background-image: url('https://content.presspage.com/uploads/570/1920_virminlandschap1.jpg?10000');
+    background: url(https://content.presspage.com/uploads/570/1920_virminlandschap1.jpg?10000);
+    padding-top: 10rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -10rem;
+}
